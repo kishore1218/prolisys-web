@@ -552,3 +552,24 @@ h6,
   font-size: 0.85rem;
   color: #64748b;
 }
+.pss-icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .pss-icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
